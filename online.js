@@ -1,4 +1,4 @@
-import Game from "./engine/game.js";
+import Game from "./game.js";
 let initialize = false;
 
 export const setup = function(game) {
