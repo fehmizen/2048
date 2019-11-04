@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styling.css">
+        <title>2048</title>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="engine/game.js" type="module"></script>
+        <script src="online.js" type="module"></script>
+
+        <div class="container">
+            <div class="container vertical-center">
+                <div>
+                    <h1 class="has-text-centered">2048</h1>
+                    <p class="has-text-centered">Use arrow keys to combine to 2048</p>
+                </div>
+                <div class="container vertical-centered">
+                    <div class="has-text-centered" id="score" style="color:goldenrod"></div>
+                    <div class="has-text-centered">
+                        <button type="button" style="background: rgb(255, 0, 0); color:white; width: 60px; height: 20px" id="reset">Reset</button>
+                    </div>
+                    <div>
+                        <h1 id="end"></h1>
+                    </div>
+                </div>
+
+        <div class="flex-container">
+            <div id = "1"></div>
+            <div id = "5"></div>
+            <div id = "9"></div>  
+            <div id = "13"></div>                
+        </div>
+
+        <div class="flex-container">
+            <div id = "2"></div>
+            <div id = "6"></div>
+            <div id = "10"></div>  
+            <div id = "14"></div>
+        </div>
+        
+        <div class="flex-container">
+            <div id = "3"></div>
+            <div id = "7"></div>
+            <div id = "11"></div>  
+            <div id = "15"></div>
+        </div>
+        
+        <div class="flex-container">
+            <div id = "4"></div>
+            <div id = "8"></div>
+            <div id = "12"></div>  
+            <div id = "16"></div>
+        </div>
+              
+    </body>
+</html>
